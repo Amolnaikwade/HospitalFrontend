@@ -1,0 +1,158 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.book-appointment {
+  background: url('../public/images/doctor-bg.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book-appointment h2 {
+  font-size: 22px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.book-appointment label {
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.book-appointment select,
+.book-appointment input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.book-appointment button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.book-appointment button img {
+  margin-right: 8px;
+  width: 18px;
+}
+
+.book-appointment button:hover {
+  background-color: #218838;
+}
+
+
+.reschedule-appointment {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.reschedule-appointment h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.reschedule-appointment label {
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.reschedule-appointment input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.reschedule-appointment button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reschedule-appointment button img {
+  margin-right: 8px;
+  width: 18px;
+}
+
+.reschedule-appointment button:hover {
+  background-color: #0069d9;
+}
+
+
+.notification {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e7f9e9;
+  color: #2d7a2d;
+  border: 1px solid #c3e6cb;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
